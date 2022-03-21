@@ -1,0 +1,6 @@
+loaf = буханка хліба
+witch = відьма
+baker = пекарь
+bakery = булочна
+neither ... nor ... = ні ... ні ...
+either ... or ... = чи ... чи ...
