@@ -202,7 +202,8 @@ def selectCorrect():
 if __name__ == "__main__":
     openFile()
     random.shuffle(lines)
-    md = int(input("""\nSelect the checking mode ...
+    md = int(input("""
+Select the checking mode ...
 1 - Translate UA --> EN
 2 - Test (a b c...) UA --> EN
 3 - Translate EN --> UA
