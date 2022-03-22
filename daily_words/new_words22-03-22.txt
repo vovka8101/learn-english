@@ -1,0 +1,10 @@
+rather = замість
+stamps = марки
+embroidery = вишивка
+knitting = в'язання
+calming = заспокійливий
+costly = дорогий
+enjoyable = приємний
+exciting = захоплююче
+hopeless = безнадійний
+exhibition = виставка
