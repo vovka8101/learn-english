@@ -8,7 +8,8 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleW
 
 
 def openFile():
-    global fname, size_lines
+    global fname, size_lines, lines
+    lines = []
     os_root = '/' if os.name != 'nt' else '\\'
     fn_list = []
     path = '.' + os_root
@@ -40,7 +41,6 @@ def openFile():
                 path = root + os_root
             fn_list = []
 
-    lines = []
     with open(fname, encoding="utf-8") as f:
         for line in f:
             line = line.rstrip()
@@ -66,7 +66,7 @@ def ua_to_en():
         k += 1
         answ = ""
         en, ua = en_ua(i)
-        print(f"\n{k}/{size_lines}: Sentence: {ua}")
+        print(f"\n{k}/{size_lines}| Sentence: {ua}")
 
         answ = input("Your answer: ").lower()
 
@@ -92,7 +92,7 @@ def en_to_ua():
         en, ua = en_ua(i)
         if ua.find(' / ') != -1:
             ua_list = ua.split(' / ')
-        print(f"\n{k}/{size_lines}: Sentence: {en}")
+        print(f"\n{k}/{size_lines}| Sentence: {en}")
 
         answ = input("Your answer: ").lower()
         flag = False
@@ -103,7 +103,7 @@ def en_to_ua():
                     break
         if answ == ua or flag:
             count += 1
-            print("+ True +")
+            print(f"+ True + | {ua}")
         else:
             print(f"- False - | Right answer: {ua}")
             incorrect.append(i)
