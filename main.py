@@ -40,6 +40,7 @@ def openFile():
                 path = root + os_root
             fn_list = []
 
+    lines = []
     with open(fname, encoding="utf-8") as f:
         for line in f:
             line = line.rstrip()
