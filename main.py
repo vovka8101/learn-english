@@ -1,18 +1,14 @@
 import os
 import random
-import requests
-from bs4 import BeautifulSoup
-import matplotlib.pyplot as plt
-import matplotlib.image as mpim
-import shutil
 
 lines = []
+size_lines = 0
 fname = ""
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
 
 def openFile():
-    global fname
+    global fname, size_lines
     os_root = '/' if os.name != 'nt' else '\\'
     fn_list = []
     path = '.' + os_root
@@ -49,62 +45,7 @@ def openFile():
             line = line.rstrip()
             lines.append(line.lower())
 
-
-def findImage():
-    word = input("Enter a word: ")
-    url = "https://dictionary.cambridge.org/dictionary/english/" + word
-    try:
-        response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'lxml')
-        quotes = soup.find('div', class_='dimg')
-        images = quotes.find('amp-img')
-        img_link = "https://dictionary.cambridge.org/" + images.attrs['src']
-
-        r = requests.get(img_link, headers=headers, stream=True)
-        if r.status_code == 200:
-            with open(f"{word}.jpg", 'wb') as f:
-                r.raw.decode_content = True
-                shutil.copyfileobj(r.raw, f)
-        ok = True
-    except (ConnectionError, AttributeError):
-        print("Image not found")
-        ok = False
-
-    if ok:
-        img = mpim.imread(f"{word}.jpg")
-        plt.imshow(img)
-        plt.show()
-        os.remove(f"{word}.jpg")
-
-
-def parseWords(word):
-    if word.startswith("a "):
-        word = word[2:]
-    elif word.startswith("an ") or word.startswith("to "):
-        word = word[3:]
-
-    url = "https://dictionary.cambridge.org/dictionary/english/" + word
-    try:
-        response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'lxml')
-        quotes = soup.find_all('div', class_='def ddef_d db')
-        quote = quotes[0].text
-        # i = 0
-        # for quote in quotes:
-        #     print(quote.text)
-        #     i += 1
-        #     if i == 3:
-        #         break
-    except ConnectionError:
-        print("Connection Error")
-
-    return quote
-    # if i == 0:
-    #     print("The hint doesn't find")
-
-
-def find_word_description():
-    pass
+    size_lines = len(lines)
 
 
 def en_ua(line):
@@ -117,12 +58,14 @@ def en_ua(line):
 
 def ua_to_en():
     print("\nTranslate to English ...")
+    global size_lines
     incorrect = []
-    count = 0
+    count, k = 0, 0
     for i in lines:
+        k += 1
         answ = ""
         en, ua = en_ua(i)
-        print(f"\nSentence: {ua}")
+        print(f"\n{k}/{size_lines}: Sentence: {ua}")
 
         answ = input("Your answer: ").lower()
 
@@ -139,14 +82,16 @@ def ua_to_en():
 def en_to_ua():
     print("\nTranslate to Ukrainian ...")
     incorrect = []
-    count = 0
+    global size_lines
+    count, k = 0, 0
     for i in lines:
+        k += 1
         answ = ""
         ua_list = []
         en, ua = en_ua(i)
         if ua.find(' / ') != -1:
             ua_list = ua.split(' / ')
-        print(f"\nSentence: {en}")
+        print(f"\n{k}/{size_lines}: Sentence: {en}")
 
         answ = input("Your answer: ").lower()
         flag = False
@@ -206,16 +151,13 @@ if __name__ == "__main__":
 Select the checking mode ...
 1 - Translate UA --> EN
 2 - Test (a b c...) UA --> EN
-3 - Translate EN --> UA
-4 - Find word image\n"""))
+3 - Translate EN --> UA\n"""))
     if md == 1:
         ua_to_en()
     elif md == 2:
         selectCorrect()
     elif md == 3:
         en_to_ua()
-    elif md == 4:
-        findImage()
     else:
         print("Incorrect mode!")
     input()
