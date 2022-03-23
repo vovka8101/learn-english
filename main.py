@@ -144,20 +144,28 @@ def selectCorrect():
     print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
 
 
-if __name__ == "__main__":
-    openFile()
-    random.shuffle(lines)
-    md = int(input("""
+def menu():
+    while True:
+        openFile()
+        random.shuffle(lines)
+        md = int(input("""
 Select the checking mode ...
 1 - Translate UA --> EN
 2 - Test (a b c...) UA --> EN
-3 - Translate EN --> UA\n"""))
-    if md == 1:
-        ua_to_en()
-    elif md == 2:
-        selectCorrect()
-    elif md == 3:
-        en_to_ua()
-    else:
-        print("Incorrect mode!")
-    input()
+3 - Translate EN --> UA
+0 - Quite\n"""))
+        if md == 1:
+            ua_to_en()
+        elif md == 2:
+            selectCorrect()
+        elif md == 3:
+            en_to_ua()
+        elif md == 0:
+            return
+        else:
+            print("Incorrect mode!")
+
+
+if __name__ == "__main__":
+    menu()
+    input('Press Enter to close ...')

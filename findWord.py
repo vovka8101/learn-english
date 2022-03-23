@@ -14,8 +14,8 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleW
 def findWord():
     global fname
     while True:
-        word = input("Enter a word ('-stop' for exit): ").lower()
-        if word == '-stop':
+        word = input("Enter a word ('--q' for exit): ").lower()
+        if word == '--q':
             break
         url = "https://dictionary.cambridge.org/dictionary/english/" + word.replace(' ', '+')
         try:
