@@ -1,29 +1,29 @@
-rather = замість
-stamps = марки
-embroidery = вишивка
-knitting = в'язання
-calming = заспокійливий
-costly = дорогий
-enjoyable = приємний
-exciting = захоплююче
-hopeless = безнадійний
-exhibition = виставка
-occur = відбуватися
-argue = сперечатися
-policy = політика
-awful = жахливий
-drown = тонути
-scale = ваги / масштаб
-sight = погляд / вигляд
-adverb = прислівник
-brush = щітка / чистити
-force = сила / збройні сили
-broad = широкий
-serve = служити / обслуговувати
-board = дошка
-grass = трава / пасовище
-tough = жорсткий / міцний
-cruel = жорстокий
-count = рахувати / підрахунок
-major = основний / важливий / майор
-swear = присягатися / присяга / клятва
+rather = скоріше / переважно / замість = quite; to a slight degree / It is rather cold outside, so I should wear a jacket when heading to work. / The puppy is rather active and runs around most of the night. / Though he is rather young, Jared seems set on joining the military one day.
+stamps = марки = a small piece of paper with a picture or pattern on it that is stuck onto a letter or package before it is posted, to show that the cost of sending it has been paid: / These old stamps are eagerly coveted by collectors. / He knew I collected stamps.
+embroidery = вишивка = patterns or pictures that consist of stitches sewn directly onto cloth:  / needlework / Doing extra embroidery work on the side, the talented seamstress enjoyed doing needlework. / Knitting each gift with care, the loving grandmother always used her embroidery skills to make birthday presents for her grandchildren.
+knitting = в'язання = the activity of knitting something, or a thing that is being knitted: / She's knitting herself a sweater. / She's busy knitting baby clothes.
+calming = заспокійливий = to stop someone feeling upset, angry, or excited: / She tried calming him down but it seemed to be having the opposite effect. / Slow cutting has an effect which is calming and relaxing, whereas faster cutting gives a feeling of drama and excitement.
+costly = дорогий = expensive, especially too expensive:  / Anna doesn’t have the money to buy the expensive parts or cover the costly repairs needed to fix her car. / The six-month delay will be costly for the company.
+enjoyable = приємний = entertaining; pleasurable / Going to the beach is usually enjoyable, but today’s heat wave took away from the fun. / I find reading enjoyable, but my sister has more fun watching television. / The children had a good time at the museum and found most of the activities enjoyable.
+exciting = захоплююче = thrilling and interesting / When my wife announced we were having a baby, the exciting news made me go buy a house full of baby toys. / “My life is exciting,” persuaded the divorced mother of four, “because I have traveled to many places around the world.”
+hopeless = безнадійний = without hope; having no expectation of good / Sitting in jail, Roy felt that his situation was hopeless without the slightest possibility that he would ever see the light of day. / Gary is a famous writer who at one point in his life believed that his writing skills were truly hopeless. / Michelle encouraged her mother not to consider her situation hopeless because one day she would be released from the hospital.
+exhibition = виставка = an event at which objects such as paintings are shown to the public / The art exhibition featured pieces from famous painters around the globe. / Over 200 period photographs are displayed at the Civil Rights exhibition in the center of the museum.
+occur = відбуватися = to take place; happen / There was no way to predict when the earthquake would occur, but scientists were certain it would happen. / More car accidents occur in Washington D.C. than any other city in the U.S. / Although diabetes and depression are different diseases, they can occur at the same time.
+argue = сперечатися = to give the reasons for your opinion about the truth of something or to explain why you believe something should be done:  / If you wish to argue for an ideal that you believe in, you are better off relying on logic than emotion. / People argue with each other all the time, generally because they disagree on some important matter. / It is pointless to argue for or against something if you do not have reasons for either one of them.
+policy = політика = a set of ideas or a plan of what to do in particular situations that has been agreed to officially by a group of people, a business organization, a government, or a political party:  / Our school policy states that students can only bring their lunch from home if they have a doctor’s excuse. / Because of the camp’s policy, I am not allowed my phone or any other electronic device to the site. / Because the dress code section of the handbook lists no rule or policy about hair, the girl’s pink and purple locks must be allowed.
+awful = жахливий = horrible; terrible / extremely bad or unpleasant:  / An awful plague took over the city and thousands of people died from the sickness. / I heard the awful news of my cousin’s death through a Facebook posting about the tragedy. / The loud and awful noise coming from the freezer told us that something was horribly wrong with it.
+drown = тонути = to (cause to) die by being unable to breathe underwater:  / to cover something completely / The cautious parents wouldn’t dare leave their toddler alone near the pool out of fear she might fall in and drown in the water.
+scale = ваги / масштаб = an instrument used to measure the weight of something / A scale was used to measure how many pounds each wooden block is. / The truck driver had to drive his trailer over the huge scale so that it could measure the weight of his load.
+sight = погляд / вигляд = vision, or the literal ability to see / something that is in someone's view:  / The guards blinded my sight with a strip of cloth to ensure that I did not see the path they took to reach their secret base. / People with poor sight must use corrective measures to see properly, such as glasses, contacts, or laser eye surgery. / Animals that do not have eyes by extension have no sight, at least not in the sense that we as humans understand.
+adverb = прислівник = a word that describes or gives more information about a verb, adjective, adverb, or phrase: / In 'speak quietly', the adverb 'quietly' is a modifier.
+brush = щітка / чистити = an object with short pieces of stiff hair, plastic, or wire attached to a base or handle, used for cleaning, arranging your hair, or painting: / The children brush their teeth after every meal.
+force = сила / збройні сили = physical, especially violent, strength, or power:  / to make someone do something against their will / the military organizations for air, land, and sea / The company tries to force workers to do free work on the weekends even though it is illegal. / Marla tried to force the baby to eat the peas, but she refused to swallow.
+broad = широкий = wide in extent or scope / very wide:  / There was broad agreement on the issue of equal pay for women. / We saw the broad ocean. / His shoulders were broad and his waist narrow.
+serve = служити / обслуговувати = to provide food or drinks:  / to work for; to do your duty to:  / The restaurant staff no longer serve alcohol on Sundays, but they will provide you with drinks any other day of the week. / Soldiers in the military choose to serve their country with pride and protect the citizens of the United States.
+board = дошка = a panel or plank / A wooden board was placed across each window to keep neighborhood hooligans from breaking the windows out. / There are still two vacancies on the school board.
+grass = трава / пасовище = a low, green plant that grows naturally over a lot of the earth's surface, having groups of very thin leaves that grow close together in large numbers: 
+tough = жорсткий / міцний = strong; not easily broken or made weaker:  / of a person, able to deal with difficult situations and not be easily defeated, frightened or upset:  / After a first tough winter in the new land, only a few pioneers were able to survive but barely. / This meat's so tough I can hardly chew it! / These toys are made from tough plastic.
+cruel = жорстокий = extremely unkind and unpleasant and causing pain to people or animals intentionally:  / Inhuman treatment of the inmates was outlawed as it was considered cruel. / State animal laws prevent pet owners from treating their animals in a cruel way.
+count = рахувати / підрахунок = to say numbers one after the other in order, or to calculate the number of people or things in a group: / Do not count your chickens before they are hatched. / She can count up to 10 in Italian.
+major = основний / важливий / майор = more important, bigger, or more serious than others of the same type:  / While the teacher was harshly disciplining the class, she was able to get her major point across to the students about keeping their hands and feet to themselves. / Since the brain and the heart are major organs in the system, any damage done to them is considered a priority by doctors.
+swear = присягатися / присяга / клятва = to promise or say firmly that you are telling the truth or that you will do something or behave in a particular way:  / I swear that I will clean my room tomorrow. / You must swear to tell the truth in a court of law. / Do you swear to tell the truth, the whole truth, and nothing but the truth?

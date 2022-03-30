@@ -1,43 +1,43 @@
-wild = дикий
-camp = табір
-stuff = матеріал / речі
-proud = гордий / гордитися
-treat = звертатися / лікувати
-treatment = лікування
-fit = підходить / відповідати / співпадати
-weigh = зважувати / важити
-weight = вага / вантаж
-bake = пекти / запікати
-term = термін / семестр
-evil = зло / злий
-hole = діра / отвір / дупло
-tidy = охайний / акуратний
-avoid = уникати
-unfairly = несправедливо
-pond = ставок / став
-stone = камінь / кісточка
-heat = жара / тепло / опалення
-rainbow = веселка
-plant = рослина / завод
-peace = мир
-steal = вкрасти
-sick = хворий
-spell = вимовляти по буквам / писати по буквам
-cosy = затишний / комфортний
-post = пошта / пост
-wage = заробітня плата
-mine = мій / шахта / міна / видобувати
-court = суд
-shake = струсити / пожимати руки / тремтіти
-civil = цивільний
-blame = звинувачувати / вина
-admit = визнавати
-along = вздовж
-terms = умови
-grade = оцінка / клас
-claim = претензія / вимога / заявляти
-delay = затримуватись / затримка
-sense = почуття / сенс
-judge = суддя / судити
-fully = повністю
-used = використаний / звиклий / той що використовується
+wild = дикий = uncontrolled, violent, or extreme:  / very unusual, often in a way that is attractive or exciting:  / Wild cats roamed around the gas station, searching for food to help continue their feral existence. / Wild plants naturally grew all around my yard, unable to be tamed without weed killer.
+camp = табір = a place where people stay in tents or other temporary structures: / The mountaineers set up their base camp at the foot of the mountain.
+stuff = матеріал / речі = a substance, especially when you do not know or say exactly what it is:  / Judy put all of the stuff that she didn’t need any more outside for her garage sale tomorrow. / On the last day of school, all of the students had to get their stuff out of their lockers before going home.
+proud = гордий / гордитися = feeling pleasure and satisfaction because you or people connected with you have done or got something good:  / having or showing respect for yourself:  / Participants at the track meet made their coach proud, setting new school records and scoring in first place overall.
+treat = звертатися / ставитися / лікувати = to behave towards someone or deal with something in a particular way:  / You should treat the elderly with care and respect, since they have a lot more wisdom and experience than you. / I like to treat my dog with all of the love in the world since he always treats me the same way. / If you are a rude and mean individual, it is unlikely that the people around you will treat you with any niceness.
+treatment = лікування / ставлення = the way you deal with or behave towards someone or something:  / the use of drugs, exercises, etc. to cure a person of an illness or injury: 
+fit = пристосований / підходить / відповідати / співпадати = to be the right size or shape for someone or something:  / Criminals aren’t fit to live in society, so society elects to keep them locked away in a prison instead. / Five people will fit, but that's the max. / His clothes did not fit him very well.
+weigh = зважувати / важити = to measure how heavy something is / If you weight the fruit, it should equal one pound. / Truck drivers were asked to weigh their loads and report how much freight they were carrying. / With no way to weigh the package, we had to guess how heavy it was.
+weight = вага / вантаж = the amount that something or someone weighs:  / After losing weight, I could fit into a much smaller swim suit. / The price of the ice cream depends on its weight and the heaviness of the toppings. / Using a scale, the dieter was able to see how much weight she had lost.
+bake = пекти / запікати = to cook inside an oven, without using added liquid or fat: / Cover the chicken with silver foil and bake. / Bake the potatoes for 15 minutes, till they're nice and crisp.
+term = термін / семестр = a fixed period in which something is supposed to last / one of the periods into which a year is divided at school, college, or university:  / The president only served one term and decided not to run for reelection. / At the end of the five-year term, the professor will get to decide if she wants to continue teaching and renew her tenure.
+evil = зло / злий = morally bad, cruel, or very unpleasant:  / The devil is an evil being in religion that has no goodness in him, and he seeks only to destroy the lives of the faithful. / Many people rightfully consider Adolf Hitler to have been an evil man that only sought conquest and the slaughter of innocent people. / There is no such things as good and evil for animals because animals do not understand right and wrong in regards to morality.
+hole = діра / отвір / дупло = an empty space in an object, usually with an opening to the object's surface, or an opening that goes completely through an object: / The bomb blew a huge hole in the ground.
+tidy = охайний / акуратний = to be orderly and organized / Showing a tidy house to the potential buyers left a good impression with them as the house had been taken care of. / Ms. Tillman could always put her hand on anything she wanted because she kept her office as tidy as possible.
+avoid = уникати = to stay away from someone or something:  / The dieter tries to avoid foods that are high in fat or sugar. / By using lots of sunscreen before heading to the beach, the surfer was able avoid a sunburn.
+unfairly = несправедливо = in a way that is not right or does not involve equal treatment:  / If you give one child three apples and the other child only one, you have distributed the apples unfairly. / He unfairly gave the throne his own son, simply because he did not get along with his nephew.
+pond = ставок / став = an area of water smaller than a lake, often artificially made:  / Every Sunday without fail, the boy and his father would go fishing in the pond located behind their house. / The young boy would skip rocks across a pond during the picnic while the young girl sang a song on her guitar.
+stone = камінь / кісточка = the hard, solid substance found in the ground that is often used for building, or a piece of this:  / When the door kept shutting closed, I pushed a heavy stone in front of the door to keep it open. / Bending down by the lake, I would throw a stone into the lake making a small splashing sound.
+heat = жара / тепло / опалення = the quality of being hot or warm, or the temperature of something:  / Heat radiated from the fireplace and warmed the hands of the holidaymakers. / The elderly gentleman has to be careful in the heat, since staying out in the sun to long has caused him to dehydrate.
+rainbow = веселка = an arch of color in the atmosphere formed by refraction of light through moisture in the air / The seven colors of the rainbow can often be seen in the sky just after it rains, providing humanity with a beautiful sight.
+plant = рослина / завод = a living thing that grows in earth, in water, or on other plants, usually has a stem, leaves, roots, and flowers, and produces seeds: / Bamboo is a sort of hollow plant. / Animals depend on plant material for food.
+peace = мир = freedom from war and violence, especially when people live and work together happily without disagreements:  / It was peace of mind knowing that all of my bills are paid this month, and I will begin working full-time next month. / When the two generals came together to shake hands, the rest of the world knew the war was over due to this sign of peace. / Due to all of the war going on in the world, many charity organizations try to promote peace on earth with the hopes of everyone getting along.
+steal = вкрасти = to take something without the permission or knowledge of the owner and keep it:  / Thieves steal small valuables like watches out of people’s homes. / You steal if you take someone’s wallet from them. / It is hard to steal things from people that keep all of their possessions in a safe.
+sick = хворий = physically or mentally ill; not well or healthy: / The sick man is in danger of death.
+spell = вимовляти по буквам / писати по буквам = to form a word or words with the letters in the correct order:  / The teacher taught the children how to spell each word by sounding out each of the syllables. / You spell the word calendar “c-a-l-e-n-d-ar.”
+cosy = затишний / комфортний = comfortable and pleasant, especially (of a building) because of being small and warm: / I felt warm and cosy sitting by the fire. / This room is nice and cosy in the winter.
+post = пошта / пост = letters, etc. that are delivered to homes or places of work. / The letter is ready for the post. / Is there a post office near here?
+wage = заробітня плата = money that is paid by an employer to an employee in exchange for work / Flipping burgers and making no more than minimum wage, Samantha sought after a higher paying job to support her family. / If my hourly wage is 10 dollars an hour and I work 40 hours a week, I can earn 400 dollars before taxes are taken out.
+mine = мій / шахта / міна / видобувати = the one(s) belonging to or connected with me:  / a hole or system of holes in the ground where substances such as coal, metal, and salt are removed:  / Many of those who went to California in the 1800s were there to mine for gold and dig for other precious metals. / My grandfather used to mine for coal and made a living digging deep down in the earth for this carbonized materials.
+court = суд = the session of a judicial assembly for civil and criminal cases / to take legal action against someone:  / Because of protests for a man on trial, the security measures in the court building was tightened.
+shake = струсити / пожимати руки / тремтіти = to move backwards and forwards or up and down in quick, short movements, or to make something or someone do this:  / The woman’s warm natured body would shake every time she felt the cool Chicago air nip and her nose. / As I felt my leg shake, I knew that I had overworked myself during training.
+civil = цивільний = polite and cultured / Josh was civil and well mannered, but he was not overly friendly. / My barber is civil and well dressed, giving off an air of professionalism.
+blame = звинувачувати / вина = to say or think that someone or something did something wrong or is responsible for something bad happening:  / Although I no longer blame my father for my parent’s divorce, my mother is still holding a grudge. / The news outlets continued to blame the young woman for her daughter’s death even though she was found not guilty. / Because the wreck was an accident, there was no one to blame for the crash.
+admit = визнавати = to agree that something is true, especially unwillingly:  / to accept that you have failed and give up:  / The police officer offered to let the driver off with a warning if he would admit to speeding instead of lying. / After an hour of questioning, the killer was forced to admit that he committed the crime.
+along = вздовж = from one part of a road, river, etc. to another:  / The road along the river was recently closed due to flooding. / Living along the major highway made for noisy nights and hectic days. / If you travel along the dirt path, you will eventually get to the run-down shack.
+terms = умови = the conditions that are part of an agreement or arrangement, or the features of an activity or idea: / These are the terms and conditions of your employment. / What are the terms of the peace treaty?
+grade = оцінка / клас = a level of quality, size, importance, etc.:  / a school class or group of classes in which all the children are of a similar age or ability:  / I will only purchase the best grade eggs even though the cost is higher.
+claim = заявляти / претензія / вимога = to say that something is true or is a fact, although you cannot prove it and other people might not believe it:  / to ask for something of value because you think it belongs to you or because you think you have a right to it:  / Scientists claim that a giant asteroid hit the Earth and destroyed the dinosaurs, triggering the Ice Age. / Some doctors claim that chocolate can reduce your chance of a heart attack.
+delay = затримуватись / затримка = to cause someone or something to be slow or late:  / Since the handyman was lazy, the homeowner knew he would delay the completion of the house remodel. / The president got sick quickly after lunch, so he decided to delay the meeting until 4 p.m.
+sense = почуття / сенс = an ability to understand, recognize, value, or react to something, especially any of the five physical abilities to see, hear, smell, taste, and feel:  / When Beethoven started composing music his sense of hearing was poor and got worse until he was completely deaf. / Wolves have a great sense of smell that enables them to track prey that is several miles away. / French perfume makers have a skilled sense of smell.
+judge = суддя / судити = a person who is in charge of a trial in a court and decides how a person who is guilty of a crime should be punished, or who makes decisions on legal matters: / A blind man cannot judge colours. / Never judge people by their appearance.
+fully = повністю = completely; entirely / as much as possible:  / The fully equipped gym had every type of workout equipment fitness junkies could dream of using. / Although she didn’t fully understand the process, the child knew enough to answer a few of the math problems.
+used = використаний / звиклий / той що використовується = having already been owned or handled / The bargain shopper likes to go to second-hand stores to find used clothing that is still like new. / Pamela was able to score the used furniture for free since its previous owners didn’t need it anymore.

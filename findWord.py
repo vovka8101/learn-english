@@ -11,7 +11,6 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleW
 def findWord():
     global fname
     while True:
-        explain = ""
         word = input("Enter a word ('--q' for exit): ").lower()
         if word == '--q':
             break
@@ -27,8 +26,8 @@ def findWord():
             sentences = soup.find_all('div', class_='def ddef_d db')
             i = 0
             if examples:
+                print('wordsinasentence.com:')
                 for example in examples:
-                    i += 1
                     example = example.text.rstrip()
                     if not example:
                         continue
@@ -37,12 +36,15 @@ def findWord():
                     elif example.find('\n') != -1:
                         example = example[:example.find('\n')]
                     print(example)
-                    explain += example + '@'
-            elif sentences:
+                print()
+            if sentences:
+                print('dictionary.cambridge.org:')
                 for sentence in sentences:
+                    if i == 4:
+                        break
+                    print(f"{sentence.text}")
                     i += 1
-                    print(f"{i}. {sentence.text}")
-                    explain += f"{i}. {sentence.text}@"
+                print()
 
             if i == 0:
                 print("Not found ;(\n")
@@ -52,11 +54,13 @@ def findWord():
         except ConnectionError:
             print("Connection Error ;(\n")
 
-        translate = input("Add Ukrainian translate ('--n' - don't save): ").lower()
+        translate = input("Enter Ukrainian translate ('--n' - don't save): ").lower()
         if translate.find("--n") == -1:
+            explain = input(f"Enter explain for '{word}': ")
+            exmple = input("Enter some sentences (' / ' - delimeter): ")
             with open(fname, 'a', encoding='utf-8') as f, open(fname_all, 'a', encoding='utf-8') as f2:
-                f.write(f"{word} = {translate} = {explain}\n")
-                f2.write(f"{word} = {translate} = {explain}\n")
+                f.write(f"{word} = {translate} = {explain} = {exmple}\n")
+                f2.write(f"{word} = {translate} = {explain} = {exmple}\n")
 
 
 if __name__ == "__main__":

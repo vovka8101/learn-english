@@ -1,18 +1,18 @@
-pity = жаль / відчуття провини
-tool = інструмент / знаряддя
-slim = стройний / в хорошій формі
-quiz = вікторина
-comb = гребінець / розчіска
-keen = страсно захоплюючий / гострий
-bright = яркий
-tights = колготки
-slippers = домашні тапочки
-vest = майка / жилет
-tie = галстук / зав'язувати
-gloves = рукавиці
-suit = костюм
-socks = носки
-scarf = шарф
-dressing gown = халат
-round = круглий / навколо
-petrol = бензин
+pity = жаль / відчуття провини = i feel pity for the homeless people who don't have a warm place to sleep in the winter.
+tool = інструмент / знаряддя = it would be extremely difficult to break concrete without a tool like a sledgehammer or a jackhammer.
+slim = стройний / в хорошій формі = since debra had been dieting with the weight watchers program, she was now able to slip her slim frame comfortably into her once tight-fitting clothing.
+quiz = вікторина = to ask someone questions about something. / a game or competition in which you answer questions.
+comb = гребінець / розчіска = a flat piece of plastic, wood, or metal with a thin row of long, narrow parts along one side, used to tidy and arrange your hair.
+keen = страсно захоплюючий / гострий = very interested, eager, or wanting (to do) something very much. / the keen wind felt like knives against his skin, causing him to shield his face and he moved forward.
+bright = яркий = one bright star was the only bit of light in the otherwise dark sky. / full of light, shining.
+tights = колготки = a piece of clothing made of very thin material that tightly covers the feet, legs, and lower part of the body below the waist, often worn under skirts and dresses.
+slippers = домашні тапочки = a type of soft, comfortable shoe for wearing inside the house.
+vest = майка / жилет = a type of underwear, often with sleeves, that covers the upper part of the body, worn for extra warmth. / everyone who gets into the boat will need to wear a life vest to keep themselves afloat if the vessel should overturn.
+tie = галстук / зав'язувати = my four-year old niece learned how to tie her shoes so she might stop tripping on her loose shoelaces.
+gloves = рукавиці = to put gloves on your hands. / a piece of clothing that is worn on the hand and wrist for warmth or protection, with separe parts for each finger.
+suit = костюм = a set of clothing piece designed to be worn together. / for the beach wedding, the groomsmen will each wear a white suit with a light blue tie.
+socks = носки = a piece of clothing made from soft material that covers your foot and the lower part of your leg.
+scarf = шарф = a strip, square, or triangle of cloth, worn around the nech, head, or shoulders to keep you warm or to make you look attractive.
+dressing gown = халат = a loose piece of clothing like a coat, worn informally inside the house, especially before getting dressed in the morning or after getting undressed in the evening.
+round = круглий / навколо = in a circular direction or position; around.
+petrol = бензин = gas or fuel. / the price of the petrol was significantly higher this summer because everyone was driving long distances and the stations wanted to make more money.

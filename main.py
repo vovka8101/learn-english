@@ -4,7 +4,6 @@ import random
 lines = []
 size_lines = 0
 fname = ""
-headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
 
 def openFile():
@@ -44,17 +43,13 @@ def openFile():
     with open(fname, encoding="utf-8") as f:
         for line in f:
             line = line.rstrip()
-            lines.append(line.lower())
+            lines.append(line)
 
     size_lines = len(lines)
 
 
-def en_ua(line):
-    en, ua = "", ""
-    indx = line.find(" = ")
-    en = line[:indx]
-    ua = line[indx + 3:]
-    return en, ua
+def en_ua_ex(line):
+    return line.split(' = ')
 
 
 def ua_to_en():
@@ -65,16 +60,17 @@ def ua_to_en():
     for i in lines:
         k += 1
         answ = ""
-        en, ua = en_ua(i)
+        en, ua, ex = en_ua_ex(i)
+        ex = ex.replace(' / ', '\n')
         print(f"\n{k}/{size_lines}| Sentence: {ua}")
 
         answ = input("Your answer: ").lower()
 
         if answ == en:
             count += 1
-            print("+ True +")
+            print(f"+ True +\nEx: {ex}")
         else:
-            print(f"- False - | Right answer: {en}")
+            print(f"- False - | Right answer: {en}\nEx: {ex}")
             incorrect.append(i)
 
     print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
@@ -89,7 +85,8 @@ def en_to_ua():
         k += 1
         answ = ""
         ua_list = []
-        en, ua = en_ua(i)
+        en, ua, ex = en_ua_ex(i)
+        ex = ex.replace(' / ', '\n')
         if ua.find(' / ') != -1:
             ua_list = ua.split(' / ')
         print(f"\n{k}/{size_lines}| Sentence: {en}")
@@ -103,9 +100,9 @@ def en_to_ua():
                     break
         if answ == ua or flag:
             count += 1
-            print(f"+ True + | {ua}")
+            print(f"+ True + | {ua}\nEx: {ex}")
         else:
-            print(f"- False - | Right answer: {ua}")
+            print(f"- False - | Right answer: {ua}\nEx: {ex}")
             incorrect.append(i)
 
     print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
@@ -122,12 +119,13 @@ def selectCorrect():
     count = 0
     for line in lines:
         variants = []
-        en, ua = en_ua(line)
+        en, ua, ex = en_ua_ex(line)
+        ex = ex.replace(' / ', '\n')
         print(f"\nWord: {ua}")
         variants.append(en)
         i = 0
         while i < n - 1:
-            var, _ = en_ua(random.choice(lines))
+            var, _, _ = en_ua_ex(random.choice(lines))
             if var not in variants:
                 variants.append(var)
                 i += 1
@@ -137,9 +135,9 @@ def selectCorrect():
         answ = int(input("Your answer: "))
         if answ > 0 and answ <= n and variants[answ - 1] == en:
             count += 1
-            print("+ True +")
+            print(f"+ True +\nEx: {ex}")
         else:
-            print(f"- False - | Right answer: {en} - {ua}")
+            print(f"- False - | Right answer: {en} - {ua}\nEx: {ex}")
             incorrect.append(line)
 
     print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
