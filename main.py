@@ -60,17 +60,17 @@ def ua_to_en():
     for i in lines:
         k += 1
         answ = ""
-        en, ua, ex = en_ua_ex(i)
+        en, ua, ex, se = en_ua_ex(i)
         ex = ex.replace(' / ', '\n')
+        se = se.replace(' / ', '\n')
         print(f"\n{k}/{size_lines}| Sentence: {ua}")
 
         answ = input("Your answer: ").lower()
-
         if answ == en:
             count += 1
-            print(f"+ True +\nEx: {ex}")
+            print(f"+ True +\nEx: {se}")
         else:
-            print(f"- False - | Right answer: {en}\nEx: {ex}")
+            print(f"- False - | Right answer: {en}\nExplain: {ex}\nEx: {se}")
             incorrect.append(i)
 
     print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
@@ -85,8 +85,9 @@ def en_to_ua():
         k += 1
         answ = ""
         ua_list = []
-        en, ua, ex = en_ua_ex(i)
+        en, ua, ex, se = en_ua_ex(i)
         ex = ex.replace(' / ', '\n')
+        se = se.replace(' / ', '\n')
         if ua.find(' / ') != -1:
             ua_list = ua.split(' / ')
         print(f"\n{k}/{size_lines}| Sentence: {en}")
@@ -100,9 +101,9 @@ def en_to_ua():
                     break
         if answ == ua or flag:
             count += 1
-            print(f"+ True + | {ua}\nEx: {ex}")
+            print(f"+ True + | {ua}\nEx: {se}")
         else:
-            print(f"- False - | Right answer: {ua}\nEx: {ex}")
+            print(f"- False - | Right answer: {ua}\nExplain: {ex}\nEx: {se}")
             incorrect.append(i)
 
     print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
@@ -119,8 +120,9 @@ def selectCorrect():
     count = 0
     for line in lines:
         variants = []
-        en, ua, ex = en_ua_ex(line)
+        en, ua, ex, se = en_ua_ex(line)
         ex = ex.replace(' / ', '\n')
+        se = se.replace(' / ', '\n')
         print(f"\nWord: {ua}")
         variants.append(en)
         i = 0
@@ -135,9 +137,9 @@ def selectCorrect():
         answ = int(input("Your answer: "))
         if answ > 0 and answ <= n and variants[answ - 1] == en:
             count += 1
-            print(f"+ True +\nEx: {ex}")
+            print(f"+ True +\nEx: {se}")
         else:
-            print(f"- False - | Right answer: {en} - {ua}\nEx: {ex}")
+            print(f"- False - | Right answer: {en} - {ua}\nExplain: {ex}\nEx: {se}")
             incorrect.append(line)
 
     print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
