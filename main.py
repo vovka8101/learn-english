@@ -60,17 +60,17 @@ def ua_to_en():
     for i in lines:
         k += 1
         answ = ""
-        en, ua, ex, se = en_ua_ex(i)
-        ex = ex.replace(' / ', '\n')
+        en, ua, _, se = en_ua_ex(i)
+        # ex = ex.replace(' / ', '\n')
         se = se.replace(' / ', '\n')
         print(f"\n{k}/{size_lines}| Sentence: {ua}")
 
         answ = input("Your answer: ").lower()
         if answ == en:
             count += 1
-            print(f"+ True +\nEx: {se}")
+            print(f"+ True +")
         else:
-            print(f"- False - | Right answer: {en}\nExplain: {ex}\nEx: {se}")
+            print(f"- False - | Right answer: {en}\nEx: {se}")
             incorrect.append(i)
 
     print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
@@ -145,6 +145,30 @@ def selectCorrect():
     print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
 
 
+def en_to_en():
+    print("\nEnter a word by description ...")
+    global size_lines
+    incorrect = []
+    count, k = 0, 0
+    for i in lines:
+        k += 1
+        answ = ""
+        en, ua, ex, se = en_ua_ex(i)
+        ex = ex.replace(' / ', '\n')
+        se = se.replace(' / ', '\n')
+        print(f"\n{k}/{size_lines}| Sentence: {ex}")
+
+        answ = input("Your answer: ").lower()
+        if answ == en:
+            count += 1
+            print(f"+ True +")
+        else:
+            print(f"- False - | Right answer: {en} | {ua}\nEx: {se}")
+            incorrect.append(i)
+
+    print(f"\nResult: {count}/{len(lines)}\n", *incorrect, sep="\n")
+
+
 def menu():
     while True:
         openFile()
@@ -154,6 +178,7 @@ Select the checking mode ...
 1 - Translate UA --> EN
 2 - Test (a b c...) UA --> EN
 3 - Translate EN --> UA
+4 - Translate EN --> EN
 0 - Quite\n"""))
         if md == 1:
             ua_to_en()
@@ -161,6 +186,8 @@ Select the checking mode ...
             selectCorrect()
         elif md == 3:
             en_to_ua()
+        elif md == 4:
+            en_to_en()
         elif md == 0:
             return
         else:
